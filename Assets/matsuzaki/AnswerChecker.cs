@@ -5,22 +5,14 @@ public class AnswerChecker : MonoBehaviour
 {
     public TMP_InputField answerInput;
     public Interactable interactable;
-
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-
-    }
+    public GameObject clearText;
 
     public void CheckAnswer()
     {
         if (answerInput.text == "2")
         {
             interactable.CloseProblem();
+            clearText.SetActive(true);
         }
     }
 }

@@ -2134,6 +2134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AnswerChecker
   answerInput: {fileID: 2104664303}
   interactable: {fileID: 1431987380}
+  clearText: {fileID: 1960747411}
 --- !u!1 &1345742713
 GameObject:
   m_ObjectHideFlags: 0
@@ -2471,7 +2472,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1960747412
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2577,7 +2578,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -303.73056, y: -142.5674, z: -570.2695, w: -24.79425}
+  m_margin: {x: -393.5523, y: -90.09687, z: -484.7249, w: -95.47481}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
