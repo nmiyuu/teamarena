@@ -9,10 +9,12 @@ public class Interactable : MonoBehaviour
     bool isShowing = false;
 
     Rigidbody2D playerRb;
+    SpriteRenderer playerSprite;
 
     void Start()
     {
         playerRb = player.GetComponent<Rigidbody2D>();
+        playerSprite = player.GetComponentInChildren<SpriteRenderer>();
     }
 
     void Update()
@@ -25,6 +27,7 @@ public class Interactable : MonoBehaviour
             // ålŒö‚Ì“®‚«‚ğ~‚ß‚é
             playerRb.linearVelocity = Vector2.zero;
             playerRb.constraints = RigidbodyConstraints2D.FreezeAll;
+            playerSprite.enabled = false;
         }
     }
 
@@ -34,6 +37,7 @@ public class Interactable : MonoBehaviour
         mondaiGroup.SetActive(false);
 
         // ålŒö‚Ì“®‚«‚ğÄŠJ‚·‚é
+        playerSprite.enabled = true;
         playerRb.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 
