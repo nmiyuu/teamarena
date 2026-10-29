@@ -606,7 +606,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4281874488
-  m_fontColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1471,7 +1471,7 @@ GameObject:
   - component: {fileID: 919267300}
   m_Layer: 0
   m_Name: hiyoko_dot-472x500_0
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1853,7 +1853,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2131,6 +2131,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc70f767d4c6b0849bec37e10b073a95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnswerChecker
+  answerInput: {fileID: 2104664303}
+  mondaiGroup: {fileID: 113468029}
 --- !u!1 &1345742713
 GameObject:
   m_ObjectHideFlags: 0
@@ -2251,6 +2253,7 @@ GameObject:
   - component: {fileID: 1431987379}
   - component: {fileID: 1431987378}
   - component: {fileID: 1431987377}
+  - component: {fileID: 1431987380}
   m_Layer: 5
   m_Name: kanban
   m_TagString: Untagged
@@ -2361,6 +2364,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431987375}
   m_CullTransparentMesh: 1
+--- !u!114 &1431987380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431987375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 059fea92e9f796045b0623326976e19a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  mondaiGroup: {fileID: 113468029}
 --- !u!1 &1614569937
 GameObject:
   m_ObjectHideFlags: 0

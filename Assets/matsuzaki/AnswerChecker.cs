@@ -3,14 +3,12 @@ using TMPro;
 
 public class AnswerChecker : MonoBehaviour
 {
-    TMP_InputField answerInput;
-
-    GameObject mondaiGroup;
+    public TMP_InputField answerInput;
+    public GameObject mondaiGroup;
 
     void Start()
     {
-        answerInput = GameObject.Find("answer").GetComponent<TMP_InputField>();
-        mondaiGroup = GameObject.Find("mondaiGroup");
+        
     }
 
     void Update()
