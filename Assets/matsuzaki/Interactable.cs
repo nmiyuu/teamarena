@@ -3,32 +3,55 @@ using UnityEngine;
 public class Interactable : MonoBehaviour
 {
     public GameObject mondaiGroup;
+    public GameObject player;
+
     bool playerNearby = false;
+    bool isShowing = false;
+
+    Rigidbody2D playerRb;
 
     void Start()
     {
-        
+        playerRb = player.GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log("スペースキーが押された！");
-        }
-
         if (playerNearby && Input.GetKeyDown(KeyCode.Space))
         {
+            isShowing = true;
             mondaiGroup.SetActive(true);
+
+            // 主人公の動きを止める
+            playerRb.linearVelocity = Vector2.zero;
+            playerRb.constraints = RigidbodyConstraints2D.FreezeAll;
         }
     }
 
+    public void CloseProblem()
+    {
+        isShowing = false;
+        mondaiGroup.SetActive(false);
+
+        // 主人公の動きを再開する
+        playerRb.constraints = RigidbodyConstraints2D.FreezeRotation;
+    }
+
+    //近づいたとき
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerNearby = true;
+        }
+    }
+
+    //離れたとき
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             playerNearby = false;
-            Debug.Log("看板の判定に入った");
         }
     }
 }

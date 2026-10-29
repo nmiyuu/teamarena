@@ -4,7 +4,7 @@ using TMPro;
 public class AnswerChecker : MonoBehaviour
 {
     public TMP_InputField answerInput;
-    public GameObject mondaiGroup;
+    public Interactable interactable;
 
     void Start()
     {
@@ -20,7 +20,7 @@ public class AnswerChecker : MonoBehaviour
     {
         if (answerInput.text == "2")
         {
-            mondaiGroup.SetActive(false);
+            interactable.CloseProblem();
         }
     }
 }
