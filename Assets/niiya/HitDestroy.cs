@@ -7,7 +7,7 @@ public class HitDestroy : MonoBehaviour
         if ((collision.gameObject.tag == "Player"))
         {
             // Playerであれば自分自身を2秒後に削除
-            Destroy(this.gameObject,0.3f);
+            Destroy(this.gameObject,0.1f);
         }
     }
 }

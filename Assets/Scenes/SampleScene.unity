@@ -541,6 +541,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c652b27ade446e5439b23023ae38aa79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Life
+  gameOverGroup: {fileID: 0}
+  player: {fileID: 0}
 --- !u!114 &705878400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -999,7 +1001,7 @@ GameObject:
   - component: {fileID: 1232956843}
   - component: {fileID: 1232956846}
   m_Layer: 0
-  m_Name: ai-8bit-pixelart_22_0
+  m_Name: Item
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
