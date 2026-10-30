@@ -356,7 +356,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &113468030
 RectTransform:
   m_ObjectHideFlags: 0
@@ -850,23 +850,25 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -68.210846, y: -6.3720627}
-      - {x: -42.666412, y: 3.2538986}
+    - - {x: -101.41501, y: 33.701935}
+      - {x: -42.666412, y: 47.90777}
       - {x: -28.99294, y: 71.05927}
-      - {x: -338.04123, y: 69.543816}
-      - {x: -333.654, y: -256.19775}
-      - {x: -146.58784, y: -232.60355}
-      - {x: -118.46695, y: -217.11234}
-      - {x: -150.8375, y: -179.93268}
-      - {x: -163.10435, y: -189.3461}
+      - {x: -354.31226, y: 105.35631}
+      - {x: -443.37863, y: 131.37228}
+      - {x: -438.50116, y: -183.3974}
+      - {x: -444.71622, y: -255.05278}
+      - {x: -430.5407, y: -329.9261}
+      - {x: -103.58234, y: -299.55026}
+      - {x: -158.85226, y: -277.25522}
+      - {x: -149.36469, y: -245.44968}
       - {x: -227.79361, y: -153.1112}
-      - {x: -226.82602, y: -126.55508}
-      - {x: -178.19366, y: -113.14733}
-      - {x: -223.77345, y: -51.022106}
-      - {x: -208.99211, y: -52.525497}
-      - {x: -174.21944, y: -39.09713}
-      - {x: -194.25352, y: -17.486778}
-      - {x: -93.2895, y: 10.593929}
+      - {x: -247.4355, y: -140.29474}
+      - {x: -214.83275, y: -123.45207}
+      - {x: -268.42734, y: -70.48662}
+      - {x: -271.9655, y: -35.350925}
+      - {x: -225.74315, y: -19.632624}
+      - {x: -261.80682, y: 8.847557}
+      - {x: -118.47887, y: 49.52295}
   m_UseDelaunayMesh: 1
 --- !u!1 &511000914
 GameObject:
@@ -950,15 +952,15 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -32.319492, y: -61.333435}
-      - {x: 22.840485, y: -76.73946}
-      - {x: 87.55817, y: 20.19368}
-      - {x: -192.03835, y: 17.063705}
-      - {x: -169.96796, y: -42.556484}
-      - {x: -154.00378, y: -49.53366}
-      - {x: -117.836525, y: -41.025948}
-      - {x: -83.31726, y: -50.66419}
-      - {x: -50.871178, y: -60.833874}
+    - - {x: -1.4052734, y: -36.14407}
+      - {x: 83.52396, y: -58.41992}
+      - {x: 99.00786, y: 69.42747}
+      - {x: -222.95258, y: 75.45723}
+      - {x: -181.41766, y: -11.642277}
+      - {x: -162.01859, y: -12.8946}
+      - {x: -115.54658, y: -4.3868637}
+      - {x: -87.897156, y: -10.590191}
+      - {x: -38.2765, y: -31.064627}
   m_UseDelaunayMesh: 1
 --- !u!1 &516407943
 GameObject:
@@ -1359,14 +1361,15 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 17.388206, y: -174.37535}
-      - {x: 17.928879, y: -21.296202}
-      - {x: -34.196545, y: -13.685875}
-      - {x: -152.06859, y: -44.384285}
-      - {x: -193.45157, y: -96.766365}
-      - {x: -165.86685, y: -129.37683}
-      - {x: -154.33133, y: -136.6691}
-      - {x: -99.94598, y: -162.77115}
+    - - {x: -63.471107, y: -170.2484}
+      - {x: 119.290634, y: -193.83987}
+      - {x: 132.426, y: 5.0381317}
+      - {x: -39.921387, y: 5.7786255}
+      - {x: -141.76385, y: -48.96417}
+      - {x: -168.2622, y: -81.881744}
+      - {x: -148.69228, y: -124.79695}
+      - {x: -146.31653, y: -132.08922}
+      - {x: -88.49628, y: -153.61136}
   m_UseDelaunayMesh: 1
 --- !u!1 &768584675
 GameObject:
@@ -2136,114 +2139,6 @@ MonoBehaviour:
   answerInput: {fileID: 2104664303}
   interactable: {fileID: 1431987380}
   clearText: {fileID: 1960747411}
---- !u!1 &1345742713
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1345742714}
-  - component: {fileID: 1345742715}
-  m_Layer: 5
-  m_Name: hantei4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1345742714
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1345742713}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2134575106}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26, y: -194}
-  m_SizeDelta: {x: 182.99, y: 132.05}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!60 &1345742715
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1345742713}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 50, y: 50}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -131.92387, y: -4.1601486}
-      - {x: -151.62314, y: -1.9155083}
-      - {x: -189.02345, y: 19.073631}
-      - {x: -177.67168, y: -27.506317}
-      - {x: -140.91994, y: -71.61719}
-      - {x: 35.79429, y: -62.798206}
-      - {x: 147.36989, y: -43.25378}
-      - {x: 233.29324, y: -28.20278}
-      - {x: 226.07861, y: 64.26472}
-      - {x: 181.6517, y: 4.6986732}
-      - {x: 159.6625, y: 1.952404}
-      - {x: 161.29567, y: 30.639442}
-      - {x: 119.938065, y: 38.99907}
-      - {x: 118.98981, y: 13.266487}
-      - {x: 94.905045, y: 31.859184}
-      - {x: 82.88275, y: 19.619308}
-      - {x: 75.78729, y: -6.4665604}
-      - {x: 33.638138, y: -7.2109528}
-      - {x: 32.44806, y: 14.065903}
-      - {x: 2.053711, y: 16.506813}
-      - {x: 3.663269, y: -26.827007}
-      - {x: -99.14527, y: -27.706165}
-      - {x: -94.48514, y: 18.570854}
-      - {x: -135.16696, y: 21.846313}
-      - {x: -131.96158, y: -3.4488564}
-  m_UseDelaunayMesh: 1
 --- !u!1 &1431987375
 GameObject:
   m_ObjectHideFlags: 0
@@ -3415,7 +3310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -3465,7 +3360,6 @@ RectTransform:
   - {fileID: 747694552}
   - {fileID: 511000915}
   - {fileID: 338987780}
-  - {fileID: 1345742714}
   - {fileID: 7754792}
   - {fileID: 668312533}
   - {fileID: 1178616029}

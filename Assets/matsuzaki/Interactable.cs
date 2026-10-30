@@ -4,6 +4,7 @@ public class Interactable : MonoBehaviour
 {
     public GameObject mondaiGroup;
     public GameObject player;
+    public GameObject trap;
 
     bool playerNearby = false;
     bool isShowing = false;
@@ -11,10 +12,14 @@ public class Interactable : MonoBehaviour
     Rigidbody2D playerRb;
     SpriteRenderer playerSprite;
 
+    SpriteRenderer trapSprite;
+
+
     void Start()
     {
         playerRb = player.GetComponent<Rigidbody2D>();
         playerSprite = player.GetComponentInChildren<SpriteRenderer>();
+        trapSprite = trap.GetComponentInChildren<SpriteRenderer>();
     }
 
     void Update()
@@ -28,6 +33,7 @@ public class Interactable : MonoBehaviour
             playerRb.linearVelocity = Vector2.zero;
             playerRb.constraints = RigidbodyConstraints2D.FreezeAll;
             playerSprite.enabled = false;
+            trapSprite.enabled = false;
         }
     }
 
@@ -39,6 +45,8 @@ public class Interactable : MonoBehaviour
         // ålŒö‚Ì“®‚«‚ğÄŠJ‚·‚é
         playerSprite.enabled = true;
         playerRb.constraints = RigidbodyConstraints2D.FreezeRotation;
+
+        trapSprite.enabled = true;
     }
 
     //‹ß‚Ã‚¢‚½‚Æ‚«
