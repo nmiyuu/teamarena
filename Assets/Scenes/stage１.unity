@@ -835,6 +835,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f06dde1d72b3cb04d97a8ae120c0dc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Timer
+  gameOverGroup: {fileID: 445448461}
+  player: {fileID: 919267295}
 --- !u!1 &211887851
 GameObject:
   m_ObjectHideFlags: 0
@@ -1724,7 +1726,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2873,6 +2875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Life
   gameOverGroup: {fileID: 445448461}
   player: {fileID: 919267295}
+  timer: {fileID: 0}
 --- !u!114 &971665721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3187,6 +3190,7 @@ MonoBehaviour:
   interactable: {fileID: 1431987380}
   clearGroup: {fileID: 466406845}
   player: {fileID: 919267295}
+  timer: {fileID: 209286757}
 --- !u!1 &1314070819
 GameObject:
   m_ObjectHideFlags: 0
