@@ -6,11 +6,13 @@ public class Life : MonoBehaviour
 {
     int life = 0;
     TMP_Text lifeText;
-
+    //ゲームオーバー
     public GameObject gameOverGroup;
-
+    //主人公
     public GameObject player;
     Rigidbody2D playerRb;
+    //タイマー
+    public Timer timer;
 
     void Start()
     {
@@ -21,8 +23,6 @@ public class Life : MonoBehaviour
         lifeText = GetComponent<TMP_Text>();
 
         gameOverGroup.SetActive(false);
-
-        Debug.Log(lifeText == null ? "テキスト取得失敗" : "テキスト取得成功");
     }
     void Update()
     {
@@ -30,10 +30,13 @@ public class Life : MonoBehaviour
 
         if (life <= 0)
         {
+            //ゲームオーバー表示
             gameOverGroup.SetActive(true);
-
+            //主人公の動きをとめる
             playerRb.linearVelocity = Vector2.zero;
             playerRb.constraints = RigidbodyConstraints2D.FreezeAll;
+            //タイマーを止める
+            timer.StopTimer();
         }
     }
 
