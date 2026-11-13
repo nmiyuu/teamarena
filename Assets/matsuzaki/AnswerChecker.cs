@@ -21,7 +21,7 @@ public class AnswerChecker : MonoBehaviour
 
     public void CheckAnswer()
     {
-        if (answerInput.text == "2" || answerInput.text == "‚Q")
+        if (answerInput.text == "‹àF" || answerInput.text == "‚«‚ñ‚¢‚ë" || answerInput.text == "‹à" || answerInput.text == "‚«‚ñ")
         {
             interactable.CloseProblem();
 
