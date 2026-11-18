@@ -151,6 +151,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 950631100}
+  - {fileID: 2104664302}
   m_Father: {fileID: 113468030}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -673,7 +674,6 @@ RectTransform:
   m_Children:
   - {fileID: 1614569938}
   - {fileID: 1974469654}
-  - {fileID: 2104664302}
   - {fileID: 4234687}
   - {fileID: 2053338615}
   m_Father: {fileID: 1305747105}
@@ -4344,7 +4344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Life
   gameOverGroup: {fileID: 445448461}
   player: {fileID: 919267295}
-  timer: {fileID: 0}
+  timer: {fileID: 209286757}
 --- !u!114 &971665721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7884,11 +7884,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2044423942}
-  m_Father: {fileID: 113468030}
+  m_Father: {fileID: 4234687}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -231}
+  m_AnchoredPosition: {x: -376, y: 0.000015258789}
   m_SizeDelta: {x: 511.16, y: 120.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2104664303
