@@ -5,7 +5,7 @@ public class Button : MonoBehaviour
 {
     public void ClickStartButton()
     {
-        SceneManager.LoadScene("stage１");
+        SceneManager.LoadScene("stage１ー１");
     }
 }
 

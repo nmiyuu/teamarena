@@ -15,10 +15,24 @@ public class TrapDisplay : MonoBehaviour
         {
             traps[i].SetActive(false);
         }
-    }
 
-    void Update()
-    {
-        
+        //ƒ‰ƒ“ƒ_ƒ€‚Εγ©‚π7Β•\¦
+        for (int i = 0; i < TrapCount; i++)
+        {
+            int RandomIndex = Random.Range(0, traps.Count);
+
+            if (traps[RandomIndex].activeSelf == false)
+            {
+                traps[RandomIndex].SetActive(true);
+            }
+            else
+            {
+                while (traps[RandomIndex].activeSelf == true)
+                {
+                    RandomIndex = Random.Range(0, traps.Count);
+                }
+                traps[RandomIndex].SetActive(true);
+            }
+        }
     }
 }

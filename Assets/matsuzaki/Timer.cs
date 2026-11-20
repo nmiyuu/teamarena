@@ -9,6 +9,10 @@ public class Timer : MonoBehaviour
     //ゲームオーバー
     public GameObject gameOverGroup;
 
+    //ゲームオーバー時にいらない表示を消すのにメッセージ
+    public GameObject ExitMessage;
+    public GameObject AppleMessage;
+
     //主人公
     public GameObject player;
     Rigidbody2D playerRb;
@@ -37,6 +41,10 @@ public class Timer : MonoBehaviour
         {
             //ゲームオーバーを表示して主人公の動きを止める
             gameOverGroup.SetActive(true);
+
+            //メッセージ系が表示されていたら消す
+            ExitMessage.SetActive(false);
+            AppleMessage.SetActive(false);
 
             playerRb.linearVelocity = Vector2.zero;
             playerRb.constraints = RigidbodyConstraints2D.FreezeAll;

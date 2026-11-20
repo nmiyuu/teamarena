@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using TMPro;
 
@@ -8,6 +7,10 @@ public class Life : MonoBehaviour
     TMP_Text lifeText;
     //ゲームオーバー
     public GameObject gameOverGroup;
+    //ゲームオーバー時にいらない表示を消すのにメッセージ
+    public GameObject ExitMessage;
+    public GameObject AppleMessage;
+
     //主人公
     public GameObject player;
     Rigidbody2D playerRb;
@@ -32,6 +35,11 @@ public class Life : MonoBehaviour
         {
             //ゲームオーバー表示
             gameOverGroup.SetActive(true);
+
+            //メッセージ系が表示されていたら消す
+            ExitMessage.SetActive(false);
+            AppleMessage.SetActive(false);
+
             //主人公の動きをとめる
             playerRb.linearVelocity = Vector2.zero;
             playerRb.constraints = RigidbodyConstraints2D.FreezeAll;
@@ -42,13 +50,9 @@ public class Life : MonoBehaviour
 
     public void Damage()
     {
-        Debug.Log("Damage実行前：" + life);
-
         if (life > 0)
         {
             life--;
         }
-
-        Debug.Log("Damage実行後：" + life);
     }
 }
