@@ -3620,17 +3620,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.015424967, y: -0.07712442}
+  m_Offset: {x: -0.03898859, y: -0.6322799}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.83}
-    newSize: {x: 0.64, y: 0.83}
+    oldSize: {x: 5.22, y: 6.22}
+    newSize: {x: 5.22, y: 6.22}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.41385412, y: 0.38300407}
+  m_Size: {x: 4.766965, y: 4.454134}
   m_EdgeRadius: 0
 --- !u!212 &663640457
 SpriteRenderer:
@@ -3681,12 +3681,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 6996116244863206394, guid: 14cfbbc25acebc2429d56e9218857b8c, type: 3}
+  m_Sprite: {fileID: 9160011619709506581, guid: 2e990afd7bc894a42aaeb4e10d8e5b23, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.83}
+  m_Size: {x: 5.22, y: 6.22}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3700,8 +3700,8 @@ Transform:
   m_GameObject: {fileID: 663640454}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.23847002, y: 2.15065, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.18, y: 2.22, z: 0}
+  m_LocalScale: {x: 0.12, y: 0.1235, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 888436512}
@@ -7207,8 +7207,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.94, y: 1.83e-13}
-  m_SizeDelta: {x: 373.6, y: 66.09}
+  m_AnchoredPosition: {x: -0.0000038147, y: -0.00000095367}
+  m_SizeDelta: {x: 599.43, y: 87.69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1393120625
 MonoBehaviour:
@@ -7230,7 +7230,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u50D5\u306B\u306F\u6BD2\u304C\u3042\u308B\u3088\uFF01"
+  m_text: "\u30D4\u30F3\u30AF\u308A\u3093\u3054\u3068\u8D64\u30EA\u30F3\u30B4\u306F\u4EF2\u304C\u60AA\u3044\u3093\u3060"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0b441c2d919a03f44b692d6e3cda07c0, type: 2}
   m_sharedMaterial: {fileID: 1471874892840633204, guid: 0b441c2d919a03f44b692d6e3cda07c0, type: 2}
@@ -7296,7 +7296,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 6.3854985, y: 0, z: 6.385559, w: 6.385639}
+  m_margin: {x: 6.3854985, y: 0, z: -1.4692613, w: 6.385639}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
