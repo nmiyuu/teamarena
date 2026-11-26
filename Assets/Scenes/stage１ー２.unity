@@ -7374,7 +7374,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u8D64\u308A\u3093\u3054\u306F\u6B63\u76F4\u8005\u3060\uFF01\n\u305D\u308C\u306B\u6BD2\u308A\u3093\u3054\u3067\u3082\u306A\u3044\u3088\n"
+  m_text: "\u8D64"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0b441c2d919a03f44b692d6e3cda07c0, type: 2}
   m_sharedMaterial: {fileID: 1471874892840633204, guid: 0b441c2d919a03f44b692d6e3cda07c0, type: 2}
