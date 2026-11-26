@@ -14,6 +14,9 @@ public class AnswerChecker : MonoBehaviour
     //タイマー
     public Timer timer;
 
+    //シーンごとに答えを変える
+    public string[] Answer;
+
     void Start()
     {
         playerRb = player.GetComponent<Rigidbody2D>();
@@ -21,19 +24,25 @@ public class AnswerChecker : MonoBehaviour
 
     public void CheckAnswer()
     {
-        if (answerInput.text == "金色" || answerInput.text == "きんいろ" || answerInput.text == "金" || answerInput.text == "きん")
+        for (int i = 0; i < Answer.Length; i++)
         {
-            interactable.CloseProblem();
+            if (answerInput.text == Answer[i])
+            {
+                //問題画面を閉じる
+                interactable.CloseProblem();
 
-            //ゲームクリア表示
-            clearGroup.SetActive(true);
+                //ゲームクリア表示
+                clearGroup.SetActive(true);
 
-            //主人公の動きを止める
-            playerRb.linearVelocity = Vector2.zero;
-            playerRb.constraints = RigidbodyConstraints2D.FreezeAll;
+                //主人公の動きを止める
+                playerRb.linearVelocity = Vector2.zero;
+                playerRb.constraints = RigidbodyConstraints2D.FreezeAll;
 
-            //タイマーを止める
-            timer.StopTimer();
+                //タイマーを止める
+                timer.StopTimer();
+
+                break;
+            }
         }
     }
 }

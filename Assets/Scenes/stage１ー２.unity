@@ -527,7 +527,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 18.32, y: 0.94}
+  m_AnchoredPosition: {x: 34, y: -26.3}
   m_SizeDelta: {x: 501.33, y: 79.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &23274335
@@ -7036,6 +7036,13 @@ MonoBehaviour:
   clearGroup: {fileID: 466406845}
   player: {fileID: 919267295}
   timer: {fileID: 209286757}
+  Answer:
+  - "\u9752"
+  - "\u3042\u304A"
+  - "\u9752\u8272"
+  - "\u9752\u308A\u3093\u3054"
+  - "\u3042\u304A\u308A\u3093\u3054"
+  - "\u3042\u304A\u8272"
 --- !u!1 &1314070819
 GameObject:
   m_ObjectHideFlags: 0
@@ -9164,7 +9171,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13.48, y: 0}
+  m_AnchoredPosition: {x: 13.48, y: -22.12}
   m_SizeDelta: {x: 704.57, y: 70.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1940300220
