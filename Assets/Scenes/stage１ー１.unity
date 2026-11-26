@@ -7036,6 +7036,13 @@ MonoBehaviour:
   clearGroup: {fileID: 466406845}
   player: {fileID: 919267295}
   timer: {fileID: 209286757}
+  Answer:
+  - "\u91D1"
+  - "\u91D1\u8272"
+  - "\u304D\u3093"
+  - "\u304D\u3093\u8272"
+  - "\u91D1\u308A\u3093\u3054"
+  - "\u304D\u3093\u308A\u3093\u3054"
 --- !u!1 &1314070819
 GameObject:
   m_ObjectHideFlags: 0
